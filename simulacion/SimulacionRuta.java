@@ -1,4 +1,4 @@
-package proyecto_final.simulacion;
+package simulacion;
 import java.io.*;
 import java.util.*;
 import java.util.concurrent.TimeUnit;

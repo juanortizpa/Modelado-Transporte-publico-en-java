@@ -1,8 +1,8 @@
-package proyecto_final.simulacion;
+package simulacion;
 
-import proyecto_final.modelo.Grafo;
-import proyecto_final.modelo.Nodo;
-import proyecto_final.modelo.Arista;
+import modelo.Grafo;
+import modelo.Nodo;
+import modelo.Arista;
 
 import java.util.*;
 

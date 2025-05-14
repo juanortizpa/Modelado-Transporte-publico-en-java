@@ -1,4 +1,4 @@
-package proyecto_final.estructuras;
+package estructuras;
 
 import java.util.*;
 

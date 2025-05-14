@@ -1,4 +1,4 @@
-package proyecto_final.modelo;
+package modelo;
 
 /**
  * Clase Nodo que representa un nodo en un grafo.

@@ -1,6 +1,6 @@
-package proyecto_final.algoritmos;
+package algoritmos;
 
-import proyecto_final.modelo.*;
+import modelo.*;
 import java.util.*;
 
 /**

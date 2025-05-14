@@ -1,6 +1,6 @@
-package proyecto_final.estructuras;
+package estructuras;
 
-import proyecto_final.modelo.*;
+import modelo.*;
 import java.util.*;
 
 /**

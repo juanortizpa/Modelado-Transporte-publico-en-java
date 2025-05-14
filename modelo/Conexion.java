@@ -1,4 +1,4 @@
-package proyecto_final.modelo;
+package modelo;
 
 /**
  * Clase Conexion que representa una conexión desde un nodo hacia otro nodo en un grafo.

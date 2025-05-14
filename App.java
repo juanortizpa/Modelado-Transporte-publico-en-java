@@ -1,12 +1,10 @@
-package proyecto_final;
-
 import java.io.IOException;
-import proyecto_final.modelo.*;
-import proyecto_final.algoritmos.*;
-import proyecto_final.estructuras.*;
-import proyecto_final.simulacion.*;
-import proyecto_final.io.*;
-import proyecto_final.simulacion.SimulacionRuta; // Importar la clase SimulacionRuta
+import modelo.*;
+import algoritmos.*;
+import estructuras.*;
+import simulacion.*;
+import io.*;
+import simulacion.SimulacionRuta; // Importar la clase SimulacionRuta
 import java.util.*;
 import java.nio.file.Files;
 import java.nio.file.Paths;

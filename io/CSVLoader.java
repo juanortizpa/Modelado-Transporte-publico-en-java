@@ -1,6 +1,6 @@
-package proyecto_final.io;
+package io;
 
-import proyecto_final.modelo.*;
+import modelo.*;
 import java.io.*;
 import java.util.*;
 

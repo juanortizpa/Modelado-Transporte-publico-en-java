@@ -1,4 +1,4 @@
-package proyecto_final.modelo;
+package modelo;
 
 /**
  * Clase Arista que representa una conexión entre dos nodos en un grafo.

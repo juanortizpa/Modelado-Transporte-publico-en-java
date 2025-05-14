@@ -2,9 +2,9 @@
  * Clase BellmanFord que implementa el algoritmo de Bellman-Ford para encontrar
  * las distancias más cortas desde un nodo origen a todos los demás nodos en un grafo.
  */
-package proyecto_final.algoritmos;
+package algoritmos;
 
-import proyecto_final.modelo.*;
+import modelo.*;
 import java.util.*;
 
 public class BellmanFord {
