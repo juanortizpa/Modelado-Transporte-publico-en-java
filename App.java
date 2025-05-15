@@ -1,13 +1,17 @@
+
 import java.io.IOException;
 import modelo.*;
 import algoritmos.*;
 import estructuras.*;
+// Importar la clase SimulacionRuta
 import simulacion.*;
 import io.*;
-import simulacion.SimulacionRuta; // Importar la clase SimulacionRuta
+
 import java.util.*;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.io.FileWriter;
 
 /**
@@ -44,6 +48,24 @@ public class App {
     }
 
     public static void main(String[] args) throws IOException {
+         // Datos del encabezado
+        String nombre = "Juan Ortiz, Miguel Labrador, Harold Roldan";
+        String campus = "Campus Cali, U. Cooperativa de Colombia";
+        String repositorioGit = "https://github.com/juanortizpa/Modelado-Transporte-publico-en-java";
+
+        // Obtener la fecha y hora actual
+        LocalDateTime ahora = LocalDateTime.now();
+        DateTimeFormatter formateador = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
+        String fechaHora = ahora.format(formateador);
+
+        // Imprimir el encabezado
+        System.out.println("+----------------------------------------");
+        System.out.println("| 👤 Desarrolladores: " + nombre);
+        System.out.println("| 🎓 Campus: " + campus);
+        System.out.println("| 📅 Fecha y hora: " + fechaHora);
+        System.out.println("| 📂 Repositorio Git: " + repositorioGit);
+        System.out.println("+----------------------------------------");
+        System.out.println();
         try (Scanner sc = new Scanner(System.in)) {
             System.out.println("=== Sistema de Simulación de Rutas ===");
             System.out.print("🔍 Ingrese la ruta al archivo CSV de rutas: ");
