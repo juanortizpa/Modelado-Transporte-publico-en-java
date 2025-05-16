@@ -27,7 +27,7 @@ public class SimulacionRuta {
         // Generar tiempo proporcional a la "distancia"
         Random random = new Random();
         final int TIEMPO_MIN = 5; // Tiempo mínimo en minutos
-        final int TIEMPO_MAX = 100; // Tiempo máximo en minutos
+        final int TIEMPO_MAX = 80; // Tiempo máximo en minutos
 
         // Escalar el tiempo según la distancia con mayor diferencia
         int tiempo = TIEMPO_MIN + (distancia * (random.nextInt(3) + 1)); // Asegurar que el tiempo sea mayor con mayor distancia
